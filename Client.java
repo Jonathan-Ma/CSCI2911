@@ -23,10 +23,10 @@ public class Client extends Person{
         this.clientNum = clientNum;
         this.mailingList = mailingList;
     }
-    public void setclientNum(String clientNum){
+    public void setClientNum(String clientNum){
         clientNum = clientNum;
     }
-    public void setmailingList(boolean mailingList){
+    public void setMailingList(boolean mailingList){
         mailingList = mailingList;
     }
     public String toString(){
